@@ -1,20 +1,20 @@
 create env
 
-'''bash
+```bash
 conda create -n wineq python=3.7 -y
-'''
+```
 
 activate env
-'''bash
+```bash
 conda activate wineq
-'''
+```
 
 create req file
 
 install the req
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 git init
 
