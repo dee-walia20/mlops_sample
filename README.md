@@ -25,3 +25,12 @@ dvc add data_given/winequality.csv
 git add.
 
 git commit -m "first commit"
+
+git add . && git commit -m "update readme.md file" 
+
+one liner updates  for readme
+```bash
+git remote add origin https://github.com/dee-walia20/mlops_sample.git
+git branch -M main
+push origin main
+```
