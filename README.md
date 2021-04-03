@@ -34,3 +34,27 @@ git remote add origin https://github.com/dee-walia20/mlops_sample.git
 git branch -M main
 push origin main
 ```
+
+tox command
+```bash
+tox
+```
+tox rebuidling
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup commands
+```bash
+pip install -e .
+```
+
+build your own package command
+```bash
+python setup.py sdist bdist_wheel
+```
